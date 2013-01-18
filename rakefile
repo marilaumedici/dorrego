@@ -1,0 +1,19 @@
+require 'sinatra/activerecord/rake'
+require './application.rb'
+
+
+task :features do
+    require 'cucumber/rake/task'
+
+    Cucumber::Rake::Task.new(:cucumber) do |task|
+      Rake::Task['db:migrate'].invoke
+      task.cucumber_opts = ["features"]
+    end
+
+    Rake::Task['cucumber'].invoke
+end
+
+task :default => [:features]
+
+
+

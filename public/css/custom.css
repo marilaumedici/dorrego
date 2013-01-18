@@ -1,0 +1,25 @@
+input.big-search {
+    height: 35px;
+    width: 550px;
+    font-size: 22px;
+}
+
+.big {
+    height: 45px;
+    min-width: 100px;
+    font-size: 18px;
+}
+
+textarea.big-body {
+    width: 500px;
+}
+
+.navbar .brand {
+    float: right;
+    border: 0px;
+}
+
+#alert-area {
+    min-height: 50px;
+}
+
