@@ -1,0 +1,93 @@
+body {
+	    background-color:#99FF99;
+	    color:#003300;
+	    font-family: sans-serif;
+        position:relative;
+        top:7px;
+        right:5px;
+        margin-top:50px;
+        margin-left:160px;
+        background-image:url(/img/foca.png);
+        background-repeat:no-repeat;
+        background-size:30%;
+        background-position:80% 80%;
+        background-attachment:fixed; 
+}
+h1{
+        text-shadow: #336666 20px -12px 2px;
+}
+
+.textContainer{
+    width: 100%;
+    height: 180px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.textContainer textarea{
+    width: 500px;
+    height: 100%;
+    font-family: comic-sans;
+    font-size: 18px;
+}
+
+li .comment{
+    overflow: hidden;
+}
+
+.event{
+    width:100%;
+}
+
+.boton{
+	color: #003300;
+	border: 5px #003300 solid;
+	background-color:#FFFFFF;
+        border-radius: 20px; 
+}
+.boton:hover{
+        font-size:16;
+}
+textbox{
+        float:right;
+        margin-right:1070px;
+}
+usuario{
+         float:right;
+         margin-top:200px;
+}
+
+.event_name{
+     width: 180px;
+     float: left;
+}
+
+.event_links{
+     text-align: right;
+     float: left;
+}
+
+.event_links a{
+    margin-left: 5px;
+}
+
+.radio_label {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.section{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.section span{
+    float: left;
+    width: 120px;
+}
+
+.searcher{
+    float:right;
+    margin-right:170px;
+}
